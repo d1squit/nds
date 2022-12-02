@@ -1,0 +1,22 @@
+{
+  "name": "nds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d1squit/nds.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d1squit/nds/issues"
+  },
+  "homepage": "https://github.com/d1squit/nds#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
