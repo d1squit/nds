@@ -43,5 +43,11 @@ input:focus {
 .result {
 	font-size: 30px;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: -20px;
+}
+
+.result-with {
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 30px;
 }

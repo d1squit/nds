@@ -1,6 +1,8 @@
 document.querySelector('input').addEventListener('input', () => {
-	let value = parseFloat(document.querySelector('input').value);
+	let value = document.querySelector('input').value.replace(',', '.');
 	if (!value) return;
+	else value = parseFloat(value);
+	
 
 	let increment = 0.01;
 	let flag = false;
@@ -15,4 +17,5 @@ document.querySelector('input').addEventListener('input', () => {
 	}
 
 	document.querySelector('.result').textContent = value;
+	document.querySelector('.result-with').textContent = +(value / 1.2).toFixed(15);
 });
