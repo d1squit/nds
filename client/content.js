@@ -1,5 +1,11 @@
 document.querySelector('input').addEventListener('input', () => {
 	let value = document.querySelector('input').value.replace(',', '.');
+
+	if (value == '') {
+		document.querySelector('.result').textContent = '';
+		document.querySelector('.result-with').textContent = '';
+	}
+
 	if (!value) return;
 	else value = parseFloat(value);
 	
